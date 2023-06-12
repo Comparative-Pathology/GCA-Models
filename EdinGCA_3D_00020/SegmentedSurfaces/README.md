@@ -1,7 +1,13 @@
 # Segmented Surfaces
 
 Large and small intestine surfaces segmented into landmark bounded regions
+along with correspondingly named segmented large and small intestine surface
+vertex maps. The surface maps map the correspondingly named segmented surface
+file vertices to the appropriate midline point.
 
+
+Segmented surface files
+ 
 * large-intestine-A-DSJ.vtk - large intestine surface between the anus and the
                               descending sigmoid junction
 * large-intestine-DSJ-SF-.vtk - large intestine surface between the descending
@@ -34,4 +40,19 @@ Large and small intestine surfaces segmented into landmark bounded regions
 * small-intestine-ICVi-I.vtk - small intestine surface between the ileocaecal
                                valve-ileum and the junction of the terminal -
 			       non-terminal ileum
+
+Corresponding segmented surface map files
+
+* large-intestine-A-DSJ-map.jsn
+* large-intestine-DSJ-SF--map.jsn
+* large-intestine-SF--SF-map.jsn
+* large-intestine-SF-SF+-map.jsn
+* large-intestine-SF+-HF--map.jsn
+* large-intestine-HF--HF-map.jsn
+* large-intestine-HF-HF+-map.jsn
+* large-intestine-HF+-ICVc-map.jsn
+* large-intestine-ICVc-AO-map.jsn
+* large-intestine-AO-TA-map.jsn
+* small-intestine-ICVi-I-map.jsn
+
 
