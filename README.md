@@ -22,6 +22,7 @@ A 3D model of the large intestine and of the ileum of the small
 intestine which are derived from a patient CT image.
 During imaging a contrast agent was used in the large intestine and
 the large intestine inflated.
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00020_1_14.json)
 
 ## Overview of Files Comprising the 2 and 3D Models
 Each model has folders for domains, image masks, images, paths, sections,
