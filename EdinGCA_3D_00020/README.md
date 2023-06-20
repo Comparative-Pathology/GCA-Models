@@ -1,6 +1,6 @@
 # EdinGCA_3D_00020
 
-This folder contains the 3D model EdinGCA_3D_00020, version 1.12.
+This folder contains the 3D model EdinGCA_3D_00020, version 1.14.
 
 This is a model of the large intestine and the ileum of the small intestine.
 The model is derived from a patient CT image in which contrast agent was added
@@ -9,7 +9,7 @@ to the inflated large intestine of the patient.
 The model is comprised of the following files and folders:
 
 * README.md - This file
-* EdinGCA_3D_00020_1_12.json - the database generated model configuration file
+* EdinGCA_3D_00020_1_14.json - the database generated model configuration file
   which defines the way the model can be visualised with the GCA model viewer
   along with the collection of data required to visualise it and the position
   of landmarks with respect to the midline paths.
