@@ -15,6 +15,15 @@ downloadable releases.
 
 ## 2D Models
 
+* EdinGCA_2D_00030 -
+A 2D model of the large and small intestines based on the 
+EMBL-EBI Expression Atlas gut 
+[anatomogram](https://github.com/ebi-gene-expression-group/anatomogram) .
+The base image is used without any change apart
+from format conversion.
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer2D.html?config=EdinGCA_2D_00030_1_1X.json)
+
+
 ## 3D Models
 
 * EdinGCA_3D_00020 -
