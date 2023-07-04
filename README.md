@@ -28,10 +28,17 @@ from format conversion.
 
 * EdinGCA_3D_00020 -
 A 3D model of the large intestine and of the ileum of the small
-intestine which are derived from a patient CT image.
+intestine which is derived from a patient CT image.
 During imaging a contrast agent was used in the large intestine and
 the large intestine inflated.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00020_1_14.json)
+
+* EdinGCA_3D_00060
+A 3D model of the large intestine and of the ileum of the small
+intestine which is derived from a patient CT image.
+Neither contrast agent nor inflation was used.
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00060_1_X.json)
+
 
 ## Overview of Files Comprising the 2 and 3D Models
 Each model has folders for domains, image masks, images, paths, sections,

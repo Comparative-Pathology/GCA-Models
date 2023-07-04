@@ -1,0 +1,4 @@
+# Ignore Woolz and NIfTI files
+*.wlz
+*.nii
+

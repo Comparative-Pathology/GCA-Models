@@ -1,0 +1,4 @@
+# Ignore section image files
+*.jpg
+*.png
+
