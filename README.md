@@ -21,7 +21,7 @@ EMBL-EBI Expression Atlas gut
 [anatomogram](https://github.com/ebi-gene-expression-group/anatomogram) .
 The base image is used without any change apart
 from format conversion.
-[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer2D.html?config=EdinGCA_2D_00030_1_1X.json)
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer2D.html?config=EdinGCA_2D_00030_1_10.json)
 
 
 ## 3D Models
@@ -37,7 +37,7 @@ the large intestine inflated.
 A 3D model of the large intestine and of the ileum of the small
 intestine which is derived from a patient CT image.
 Neither contrast agent nor inflation was used.
-[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00060_1_X.json)
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00060_1_6.json)
 
 
 ## Overview of Files Comprising the 2 and 3D Models
@@ -130,7 +130,11 @@ incur some loss of information
 such as the offsets with respect to a global origin. Simple examples of
 format conversion are
   
-  * Converting a Woolz farmat masked image to NIfTI format  
+  * Converting a Woolz domain which has no image values to a NIfTI
+    format mask image in which the background has value 0 and the
+    foreground value 255
+  `WlzGreySetValue -g 255 dom.wlz | WlzExtFFConvert -o msk.nii -f wlz -`
+  * Converting a Woolz format (possibly) masked image to NIfTI format  
   `WlzExtFFConvert -o EdinGCA_3D_00020_masked.nii EdinGCA_3D_00020_masked.wlz`
   * Converting a VTK format surface to an STL format surface  
   `WlzExtFFConvert -o large-intestine.stl large-intestine.vtk`
