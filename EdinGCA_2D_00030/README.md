@@ -1,6 +1,6 @@
 # EdinGCA_2D_00030
 
-This folder contains the 2D model EdinGCA_3D_00020, version 1.1X.
+This folder contains the 2D model EdinGCA_3D_00020, version 1.10.
 
 This is a model of the large and small intestines. The model is derived from the
 EMBL-EBI Expression Atlas gut anatomogram available from the
@@ -13,7 +13,7 @@ have been computed through these domains.
 The model is comprised of the following files and folders:
 
 * README.md - This file
-* EdinGCA_2D_00030_1_1X.json - the database generated model configuration file
+* EdinGCA_2D_00030_1_10.json - the database generated model configuration file
   which defines the way the model can be visualised with the GCA model viewer
   along with the collection of data required to visualise it and the position
   of landmarks with respect to the midline paths.
