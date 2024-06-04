@@ -28,14 +28,14 @@ from format conversion.
 
 * EdinGCA_3D_00020 -
 A 3D model of the large intestine and of the ileum of the small
-intestine which is derived from a patient CT image.
+intestine which is derived from a human CT image.
 During imaging a contrast agent was used in the large intestine and
 the large intestine inflated.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00020_1_14.json)
 
 * EdinGCA_3D_00060
 A 3D model of the large intestine and of the ileum of the small
-intestine which is derived from a patient CT image.
+intestine which is derived from a human CT image.
 Neither contrast agent nor inflation was used.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00060_1_6.json)
 
@@ -91,7 +91,7 @@ These section images are simply encoded as JPEG images along the JSON paths.
 
 ### Surfaces
 Surfaces may be associated with each of the principle gut domains along with
-other reference domains such as the patient's body boundary.
+other reference domains such as the human body boundary.
 Because it is used by our visualisation software we have used a
 [VTK](https://docs.vtk.org/en/latest/design_documents/VTKFileFormats.html)
 ASCII legacy surface format.

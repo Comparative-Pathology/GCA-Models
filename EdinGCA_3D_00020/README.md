@@ -3,8 +3,8 @@
 This folder contains the 3D model EdinGCA_3D_00020, version 1.14.
 
 This is a model of the large intestine and the ileum of the small intestine.
-The model is derived from a patient CT image in which contrast agent was added
-to the inflated large intestine of the patient.
+The model is derived from a human CT image in which contrast agent was added
+to the inflated large intestine.
 
 The model is comprised of the following files and folders:
 
