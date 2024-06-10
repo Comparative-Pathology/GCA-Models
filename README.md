@@ -16,7 +16,7 @@ downloadable releases.
 ## 2D Models
 
 * EdinGCA_2D_00030 -
-A 2D model of the large and small intestines based on the 
+2D model of the large and small intestines based on the 
 EMBL-EBI Expression Atlas gut 
 [anatomogram](https://github.com/ebi-gene-expression-group/anatomogram) .
 The base image is used without any change apart
@@ -27,26 +27,26 @@ from format conversion.
 ## 3D Models
 
 * EdinGCA_3D_00020 -
-A 3D model of the large intestine and of the ileum of the small
+3D model of the large intestine and of the ileum of the small
 intestine which is derived from a human CT image.
 During imaging a contrast agent was used in the large intestine and
 the large intestine inflated.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00020_1_14.json)
 
-* EdinGCA_3D_00060
-A 3D model of the large intestine and of the ileum of the small
+* EdinGCA_3D_00060 -
+3D model of the large intestine and of the ileum of the small
 intestine which is derived from a human CT image.
 Neither contrast agent nor inflation was used.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00060_1_6.json)
 
-* HuBMAPVHF_3D_00080
-A 3D model of the large and small intestines
+* HuBMAPVHF_3D_00080 -
+3D model of the large and small intestines
 derived from the [HuBMAP](https://hubmapconsortium.org/)
 visible human female large and small intestine models.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=HuBMAPVHF_3D_00080_1_6.json)
 
-* HuBMAPVHM_3D_00070
-A 3D model of the large and small intestines
+* HuBMAPVHM_3D_00070 -
+3D model of the large and small intestines
 derived from the [HuBMAP](https://hubmapconsortium.org/)
 visible human male large and small intestine models.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=HuBMAPVHM_3D_00070_1_5.json)
@@ -126,6 +126,18 @@ Any software unique to a model and used in it's generation is included in the
 model's software folder.
 
 ## Common Software
+
+Various [Model Scripts](https://github.com/Comparative-Pathology/GCAModelScripts)
+were used to construct the models, extract features and produce
+inter-model mappings.
+
+Visualisation of these models is done using [GCARenderer](https://github.com/Comparative-Pathology/GCARenderer)
+specifically written for rendering 2 and 3D gut models,
+which itself is based on
+[Fabric.js](https://github.com/fabricjs/fabric.js) and
+[MARender](https://github.com/ma-tech/MARender)/[Three.js](https://threejs.org/)
+respectively.
+
 [Woolz](https://github.com/ma-tech/Woolz) is a fairly self contained
 set of open source software libraries, a Python binding
 and a set of command-line programs for
@@ -162,8 +174,8 @@ A [PyTorch](https://www.pytorch.org) implementation of
 segmentation tasks such as segmenting non-inflated
 large intestines without added contrast media.
 
-Surfaces were repaired (to give manifold surfaces) using a combination
-of [MeshLab](https://www.meshlab.net) and [Blender](https://www.blender.org).
+Surfaces were simplified and repaired (to give manifold surfaces) using
+a combination of [MeshLab](https://www.meshlab.net) and [Blender](https://www.blender.org).
 
 ## License
 These models are licensed under the
