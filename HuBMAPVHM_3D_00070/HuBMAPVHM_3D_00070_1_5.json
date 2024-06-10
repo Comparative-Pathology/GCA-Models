@@ -305,12 +305,12 @@
                 "text": "duodenum",
                 "opacity": 0.5
             },
-            "filename": "VH_M_Small_Intestine_Duodenum_v11.vtk",
-            "filepath": "surfaces/",
+            "filename": "small-intestine-Duodenum.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:85",
             "local_id": "duodenum",
-            "map_filename": "VH_M_Small_Intestine_Duodenum_v11_map.jsn"
+            "map_filename": "small-intestine-Duodenum_map.jsn"
         },
         {
             "links": [],
@@ -320,12 +320,12 @@
                 "text": "caecum",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Cecum_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Cecum.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:79",
             "local_id": "caecum",
-            "map_filename": "VHM_Colon_Cecum_11_map.jsn"
+            "map_filename": "large-intestine-Cecum_map.jsn"
         },
         {
             "links": [],
@@ -335,12 +335,12 @@
                 "text": "appendix",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Appendix_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Appendix.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:80",
             "local_id": "appendix",
-            "map_filename": "VHM_Colon_Appendix_11_map.jsn"
+            "map_filename": "large-intestine-Appendix_map.jsn"
         },
         {
             "links": [],
@@ -350,12 +350,12 @@
                 "text": "terminal ileum",
                 "opacity": 0.5
             },
-            "filename": "VH_M_Small_Intestine_Ileum_Terminal_v11.vtk",
-            "filepath": "surfaces/",
+            "filename": "small-intestine-Ileum_Terminal.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:82",
             "local_id": "terminal ileum",
-            "map_filename": "VH_M_Small_Intestine_Ileum_Terminal_v11_map.jsn"
+            "map_filename": "small-intestine-Ileum_Terminal_map.jsn"
         },
         {
             "links": [],
@@ -365,12 +365,12 @@
                 "text": "non terminal ileum",
                 "opacity": 0.5
             },
-            "filename": "VH_M_Small_Intestine_Ileum_NotTerminal_v11.vtk",
-            "filepath": "surfaces/",
+            "filename": "small-intestine-Ileum_NotTerminal.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:83",
             "local_id": "non terminal ileum",
-            "map_filename": "VH_M_Small_Intestine_Ileum_NotTerminal_v11_map.jsn"
+            "map_filename": "small-intestine-Ileum_NotTerminal_map.jsn"
         },
         {
             "links": [],
@@ -380,12 +380,12 @@
                 "text": "jejunum",
                 "opacity": 0.5
             },
-            "filename": "VH_M_Small_Intestine_Jejunum_v11.vtk",
-            "filepath": "surfaces/",
+            "filename": "small-intestine-Jejunum.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:84",
             "local_id": "jejunum",
-            "map_filename": "VH_M_Small_Intestine_Jejunum_v11_map.jsn"
+            "map_filename": "small-intestine-Jejunum_map.jsn"
         },
         {
             "links": [],
@@ -395,12 +395,12 @@
                 "text": "rectum",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Rectum_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Rectum.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:71",
             "local_id": "rectum",
-            "map_filename": "VHM_Colon_Rectum_11_map.jsn"
+            "map_filename": "large-intestine-Rectum_map.jsn"
         },
         {
             "links": [],
@@ -410,12 +410,12 @@
                 "text": "sigmoid colon",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Sigmoid_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Sigmoid.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:72",
             "local_id": "sigmoid colon",
-            "map_filename": "VHM_Colon_Sigmoid_11_map.jsn"
+            "map_filename": "large-intestine-Sigmoid_map.jsn"
         },
         {
             "links": [],
@@ -425,12 +425,12 @@
                 "text": "descending colon",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Descending_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Descending.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:73",
             "local_id": "descending colon",
-            "map_filename": "VHM_Colon_Descending_11_map.jsn"
+            "map_filename": "large-intestine-Descending_map.jsn"
         },
         {
             "links": [],
@@ -440,12 +440,12 @@
                 "text": "splenic flexure",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Splenic_Flexure_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Splenic_Flexure.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:74",
             "local_id": "splenic flexure",
-            "map_filename": "VHM_Colon_Splenic_Flexure_11_map.jsn"
+            "map_filename": "large-intestine-Splenic_Flexure_map.jsn"
         },
         {
             "links": [],
@@ -455,12 +455,12 @@
                 "text": "transverse colon",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Transverse_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Transverse.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:75",
             "local_id": "transverse colon",
-            "map_filename": "VHM_Colon_Transverse_11_map.jsn"
+            "map_filename": "large-intestine-Transverse_map.jsn"
         },
         {
             "links": [],
@@ -470,12 +470,12 @@
                 "text": "hepatic flexure",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Hepatic_Flexure_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Hepatic_Flexure.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:76",
             "local_id": "hepatic flexure",
-            "map_filename": "VHM_Colon_Hepatic_Flexure_11_map.jsn"
+            "map_filename": "large-intestine-Hepatic_Flexure_map.jsn"
         },
         {
             "links": [],
@@ -485,12 +485,12 @@
                 "text": "ascending colon",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Ascending_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Ascending.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:77",
             "local_id": "ascending colon",
-            "map_filename": "VHM_Colon_Ascending_11_map.jsn"
+            "map_filename": "large-intestine-Ascending_map.jsn"
         },
         {
             "links": [],
@@ -500,12 +500,12 @@
                 "text": "ileocaecal valve",
                 "opacity": 0.5
             },
-            "filename": "VHM_Colon_Ileocecal_Valve_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine-Ileocecal_Valve.vtk",
+            "filepath": "SegmentedSurfaces/",
             "group": "ANATOMY_SURFACES",
             "id": "GUT_ATLAS_MOB:78",
             "local_id": "ileocaecal valve",
-            "map_filename": "VHM_Colon_Ileocecal_Valve_11_map.jsn"
+            "map_filename": "large-intestine-Ileocecal_Valve_map.jsn"
         },
         {
             "links": [],
@@ -578,7 +578,7 @@
             ],
             "group": "MODEL_PROP",
             "id": "GUT_ATLAS_MOB:51",
-            "segmentation_id": "VHM_Colon_Low",
+            "segmentation_id": "large-intestine",
             "voxel_image_id": "none",
             "voxel_size": [
                 1.00,
@@ -593,8 +593,8 @@
                 "id": "GUT_ATLAS_DPR:3",
                 "opacity": 0.1
             },
-            "filename": "VHM_Colon_Low_11.vtk",
-            "filepath": "surfaces/",
+            "filename": "large-intestine.vtk",
+            "filepath": "Surfaces/",
             "group": "REFERENCE_SURFACES",
             "id": "GUT_ATLAS_MOB:70"
         },
@@ -605,8 +605,8 @@
                 "id": "GUT_ATLAS_DPR:3",
                 "opacity": 0.1
             },
-            "filename": "VH_M_Small_Intestine_v11.vtk",
-            "filepath": "surfaces/",
+            "filename": "small-intestine.vtk",
+            "filepath": "Surfaces/",
             "group": "REFERENCE_SURFACES",
             "id": "GUT_ATLAS_MOB:81"
         }
@@ -634,9 +634,9 @@
                 "line_width": 2.0,
                 "opacity": 1.0
             },
-            "filepath": "paths/",
+            "filepath": "Paths/",
             "id": "GUT_ATLAS_PAT:110",
-            "spline_filename": "VHM_Colon_Low_path_11-bs.jsn"
+            "spline_filename": "large_intestine_path.jsn"
         },
         {
             "links": [],
@@ -657,9 +657,9 @@
                 "line_width": 2.0,
                 "opacity": 1.0
             },
-            "filepath": "paths/",
+            "filepath": "Paths/",
             "id": "GUT_ATLAS_PAT:120",
-            "spline_filename": "VH_M_Small_Intestine_v11_path-bs.jsn"
+            "spline_filename": "small_intestine_path.jsn"
         }
     ],
     "serial": "00070",
