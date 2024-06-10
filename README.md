@@ -161,6 +161,7 @@ A [PyTorch](https://www.pytorch.org) implementation of
 [U-Net](https://doi.org/10.1007/978-3-319-24574-4_28) was used for more complex
 segmentation tasks such as segmenting non-inflated
 large intestines without added contrast media.
+
 Surfaces were repaired (to give manifold surfaces) using a combination
 of [MeshLab](https://www.meshlab.net) and [Blender](https://www.blender.org).
 
