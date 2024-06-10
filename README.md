@@ -43,13 +43,13 @@ Neither contrast agent nor inflation was used.
 A 3D model of the large and small intestines
 derived from the [HuBMAP](https://hubmapconsortium.org/)
 visible human female large and small intestine models.
-[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=HuBMAPVHF_3D_00080_1_6.json.json)
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=HuBMAPVHF_3D_00080_1_6.json)
 
 * HuBMAPVHM_3D_00070
 A 3D model of the large and small intestines
 derived from the [HuBMAP](https://hubmapconsortium.org/)
 visible human male large and small intestine models.
-[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=HuBMAPVHM_3D_00070_1_5.json.json)
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=HuBMAPVHM_3D_00070_1_5.json)
 
 
 ## Overview of Files Comprising the 2 and 3D Models
@@ -127,7 +127,8 @@ model's software folder.
 
 ## Common Software
 [Woolz](https://github.com/ma-tech/Woolz) is a fairly self contained
-set of open source software libraries and command-line programs for
+set of open source software libraries, a Python binding
+and a set of command-line programs for
 image processing and pattern recognition.
 It is particularly efficient at encoding arbitrary spatial regions in 2 and 3
 dimensions and has been used extensively in developing the 2 and 3D models.
@@ -140,18 +141,18 @@ files can be converted to a different file format.
 Conversion to different file formats may however
 incur some loss of information
 such as the offsets with respect to a global origin. Simple examples of
-format conversion are
+format conversion are:
   
-  * Converting a Woolz domain which has no image values to a NIfTI
-    format mask image in which the background has value 0 and the
-    foreground value 255
-  `WlzGreySetValue -g 255 dom.wlz | WlzExtFFConvert -o msk.nii -f wlz -`
+  * Viewing usage and supported file formats  
+  `WlzExtFFConvert -h`
   * Converting a Woolz format (possibly) masked image to NIfTI format  
   `WlzExtFFConvert -o EdinGCA_3D_00020_masked.nii EdinGCA_3D_00020_masked.wlz`
   * Converting a VTK format surface to an STL format surface  
   `WlzExtFFConvert -o large-intestine.stl large-intestine.vtk`
-  * Viewing usage and supported file formats  
-  `WlzExtFFConvert -h`
+  * Converting a Woolz domain which has no image values to a NIfTI
+    format mask image in which the background has value 0 and the
+    foreground value 255
+  `WlzGreySetValue -g 255 dom.wlz | WlzExtFFConvert -o msk.nii -f wlz -`
 
 [ITKsnap](http://www.itksnap.org/pmwiki/pmwiki.php)
 was frequently used for for simple region growing based segmentation.
@@ -160,6 +161,8 @@ A [PyTorch](https://www.pytorch.org) implementation of
 [U-Net](https://doi.org/10.1007/978-3-319-24574-4_28) was used for more complex
 segmentation tasks such as segmenting non-inflated
 large intestines without added contrast media.
+Surfaces were repaired (to give manifold surfaces) using a combination
+of [MeshLab](https://www.meshlab.net) and [Blender](https://www.blender.org).
 
 ## License
 These models are licensed under the
