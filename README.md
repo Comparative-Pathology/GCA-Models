@@ -21,7 +21,7 @@ EMBL-EBI Expression Atlas gut
 [anatomogram](https://github.com/ebi-gene-expression-group/anatomogram) .
 The base image is used without any change apart
 from format conversion.
-[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer2D.html?config=EdinGCA_2D_00030_1_10.json)
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer2D.html?config=EdinGCA_2D_00030_1_13.json)
 
 
 ## 3D Models
