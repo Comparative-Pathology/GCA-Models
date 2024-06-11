@@ -37,7 +37,7 @@ the large intestine inflated.
 3D model of the large intestine and of the ileum of the small
 intestine which is derived from a human CT image.
 Neither contrast agent nor inflation was used.
-[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00060_1_6.json)
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00060_1_8.json)
 
 * HuBMAPVHF_3D_00080 -
 3D model of the large and small intestines
