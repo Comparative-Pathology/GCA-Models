@@ -51,6 +51,13 @@ derived from the [HuBMAP](https://hubmapconsortium.org/)
 visible human male large and small intestine models.
 [Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=HuBMAPVHM_3D_00070_1_5.json)
 
+* HuBMAPVHM_3D_00090 -
+3D model of the large intestine, small intestine, stomach and partial oesophagus
+derived from a human CT image.
+A contrast agent was used in the small intestine.
+There is evidence for diverticular disease in the image.
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00090_1_0.json)
+
 
 ## Overview of Files Comprising the 2 and 3D Models
 Each model has folders for domains, image masks, images, paths, sections,
