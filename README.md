@@ -56,7 +56,7 @@ visible human male large and small intestine models.
 derived from a human CT image.
 A contrast agent was used in the small intestine.
 There is evidence for diverticular disease in the image.
-[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00090_1_0.json)
+[Visualisation](https://comparative-pathology.github.io/GCA-Models/GCA-ModelViewer3D.html?config=EdinGCA_3D_00090_1_1.json)
 
 
 ## Overview of Files Comprising the 2 and 3D Models
